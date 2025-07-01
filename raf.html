@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% ), url(pics/754192-music-wallpapers-1920x1080-computer.jpg) ;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .signup-form {
+      background-color: rgb(70, 119, 165);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .signup-form h2 {
+      text-align: center;
+      color:white;
+    }
+
+    .signup-form label {
+      display: block;
+      margin: 10px 0 5px;
+      color:white;
+    }
+
+    .signup-form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .signup-form button {
+      background-color: rgb(33, 72, 179);
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .signup-form button:hover {
+      background-color: #1b4a77;
+    }
+    .back {
+      color: white;
+      text-align: center;
+      
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-form">
+    <h2> <b>Sign Up</b> <br>Welcome our Musical Launge</h2>
+    <form action="#" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="CNIC">CNIC:</label>
+      <input type="number" id="CNIC" name="CNIC" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="password"> Confirm Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <a class="back" href="http://127.0.0.1:5500/music.html">Back</a>
+  </div>
+
+</body>
+</html>
+
